@@ -37,3 +37,5 @@ const rootController = require('./routes/index'),
 
 app.use('/', rootController);
 app.use('/users', usersController);
+app.use('/shortController', shortController);
+app.use('shortenerController', shortenerController);
