@@ -34,9 +34,9 @@ class User {
                 const { id, first_name, last_name } = response;
                 return { isValid, user_id: id, first_name, last_name };
             } else {
-                return { isValid }
+                return { error }
             }
-
+            
         } catch (error) {
             return error.message;
         }

@@ -7,7 +7,7 @@ router.get('/', async (req, res, next) => {
 
     res.render('template', {
         locals: {
-            title: 'Shorten URL',
+            title: 'Welcome to Short & Sweet URL Shortener',
             shortData: shortList,
         },
         partials: {

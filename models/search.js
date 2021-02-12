@@ -10,7 +10,7 @@ class Search {
         try {
             const query = `SELECT * FROM search WHERE short_id = ${this.short_id}`;
             const response = await db.any(query);
-            const response;
+            return response;
         } catch (err) {
             return err.message;
         }

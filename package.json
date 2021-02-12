@@ -24,8 +24,14 @@
   "homepage": "https://github.com/crohn44/url_shortener#readme",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "express-es6-template-engine": "^2.2.3",
-    "pg-promise": "^10.9.2"
+    "express-session": "^1.17.1",
+    "form-data": "^2.3.3",
+    "node-gyp": "^7.1.2",
+    "pg-promise": "^10.9.2",
+    "sessions": "^0.0.2-7"
   }
 }
