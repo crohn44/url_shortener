@@ -8,8 +8,8 @@ The purpose of our application is to help make URLs more manageable, neat, and a
 
 ## Screenshots
 ***
-![Image](Short & Sweet Login.png "Login Screenshot")
-![Image](Short & Sweet Sign-up.png "Sign up screenshot")
+![Image](Short&SweetLogin.png "Login Screenshot")
+![Image](Short&SweetSign-up.png "Sign up screenshot")
 
 ## Features
 ***
