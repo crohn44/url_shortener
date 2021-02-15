@@ -1,4 +1,4 @@
-const host = 'ziggy.db.elephantsql.com (ziggy-01)',
+const host = 'ziggy.db.elephantsql.com',
     database = 'yunigsmr',
     user = 'yunigsmr',
     password = 'HHUwX8oGb6jl8MwIqvYRaLOtuGyUpaHe';

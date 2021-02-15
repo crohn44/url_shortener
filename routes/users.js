@@ -7,7 +7,7 @@ const express = require('express'),
 router.get('/signup', (req, res) => {
     res.render('template', {
         locals: {
-            title: 'Register for an Account',
+            title: '',
             is_logged_in: req.session.is_logged_in,
         },
         partials: {
@@ -19,7 +19,7 @@ router.get('/signup', (req, res) => {
 router.get('/login', (req, res) => {
     res.render('template', {
         locals: {
-            title: 'User Log In',
+            title: "",
             is_logged_in: req.session.is_logged_in,
         },
         partials: {
@@ -37,8 +37,8 @@ router.get('/logout', (req, res) => {
 router.post('/signup', async (req, res) => {
     const { first_name, last_name, email, password } = req.body;
 
-    const salt = bcrypt.genSaltSync(10);
-    const hash = bcrypt.hashSync(password, salt);
+    const salt = await bcrypt.genSaltSync(10);
+    const hash = await bcrypt.hashSync(password, salt);
 
     const response = await UsersModel.addUser(
         first_name,
