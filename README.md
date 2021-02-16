@@ -8,8 +8,8 @@ The purpose of our application is to help make URLs more manageable, neat, and a
 
 ## Screenshots
 ***
-![Image](Short&SweetLogin.png "Login Screenshot")
-![Image](Short&SweetSign-up.png "Sign up screenshot")
+![Image](http://prnt.sc/zqbvzj "Login Screenshot")
+![Image]( http://prnt.sc/zqbzyt "Sign up screenshot")
 
 ## Features
 ***
@@ -26,4 +26,4 @@ The purpose of our application is to help make URLs more manageable, neat, and a
 
 ## Credits 
 ***
-This group project was completed with Carter Rohn(https://github.com/crohn44), Terrence Childs(https://github.com/tchilds11) and Josh Cook(https://github.com/jcook071990).
+This group project was completed by Carter Rohn(https://github.com/crohn44), Terrence Childs(https://github.com/tchilds11) and Josh Cook(https://github.com/jcook071990).
