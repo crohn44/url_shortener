@@ -2,7 +2,7 @@
 const HTTP = require('http');
 
 const HOSTNAME = '127.0.0.1',
-    PORT = 3333;
+    PORT = 3001;
 
 const express = require('express'),
     session = require('express-session'),
@@ -31,9 +31,9 @@ SERVER.listen(PORT, HOSTNAME, () => {
 });
 
 const rootController = require('./routes/index'),
-    usersController = require('./routes/users'),
-    shortController = require('/routes/short'),
-    shortenerController = require('/routes/shortener');
+    usersController = require('./routes/users');
+    // shortController = require('/routes/short'),
+    // shortenerController = require('/routes/shortener');
 
 app.use('/', rootController);
 app.use('/users', usersController);
